@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  height: 100vh;
+  width: 100%;
+  background: #edf2fc;
+  font-family: sans-serif;
+  position: relative;
+}
+.main {
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div .logo {
+  width: 100px;
+  cursor: pointer;
+}
+.main ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+.main ul li a {
+  text-decoration: none;
+  color: #606163;
+  text-transform: uppercase;
+}
+.main ul li a:hover {
+  color: #ff4321;
+}
+.info {
+  margin-left: 8%;
+  margin-top: 15%;
+}
+.info h1 {
+  font-size: 70px;
+  color: #212121;
+  margin-bottom: 20px;
+}
+.info span {
+  color: #ff4321;
+}
+.info p {
+  line-height: 22px;
+  color: #606163;
+}
+.info a {
+  background: #212121;
+  padding: 10px 18px;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+  transition: 1s;
+}
+.info a:hover {
+  background: #ff4321;
+}
+.img-box {
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+.img-box img {
+  position: absolute;
+  height: 100%;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-30%);
+  transition: bottom 1s, left 1s;
+}
+.img-box:hover .back-img {
+  bottom: 40px;
+}
+.img-box:hover .girl-img {
+  left: 54%;
+}
